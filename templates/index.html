@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>To - Do List</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="app">
+    <h1>Your Tasks</h1>
+
+    <div class="input-box">
+      <input type="text" id="inputtask" placeholder="Add a task...">
+      <img src="https://media.tenor.com/EL7zfInn_vsAAAAM/taking-notes-noting.gif" onclick="add()" class="anime-emoji">
+    </div>
+
+    <ul id="tasklist"></ul>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
