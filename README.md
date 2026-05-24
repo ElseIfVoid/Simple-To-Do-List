@@ -2,6 +2,8 @@
 
 This is a simple version of to do list i made (ik it is beginner level) i made it so that i understand how flask works
 
+![preview](preview.png)
+
 To run this at first install python libraries required
 
 ```bash
